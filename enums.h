@@ -1,0 +1,36 @@
+#pragma once
+#ifndef COPTER_ENUMS_H
+#define COPTER_ENUMS_H
+
+enum Bool
+{
+    FALSE, TRUE
+};
+
+enum Error
+{
+    OK,
+    NO_FILES,
+    NO_OUTPUT,
+    TOO_MANY_ARGS,
+    CANT_OPEN_MVS,
+    CANT_OPEN_MAGNET,
+    CANT_OPEN_COPTER,
+    CANT_OPEN_OUTPUT,
+    NOT_OPENED,
+    NO_BUF,
+    READ_ERROR,
+    WRITE_ERROR,
+    NO_VALUES,
+    INVALID_SEC,
+    INVALID_MIN,
+    INVALID_HOUR,
+    INVALID_DAY,
+    INVALID_MONTH,
+    MVS_START_ERROR,
+    MVS_END_ERROR,
+    MAGNET_START_ERROR,
+    MAGNET_END_ERROR
+};
+
+#endif //COPTER_ENUMS_H
